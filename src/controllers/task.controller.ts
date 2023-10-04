@@ -1,9 +1,5 @@
 import { Request, Response, json } from 'express';
 import { taskModel } from '../config/schema';
-import { authRole } from '../middlewares/role.access';
-import { log } from 'console';
-
-
 
 const getAllTask = async (req: Request, res: Response) => {
     try {
