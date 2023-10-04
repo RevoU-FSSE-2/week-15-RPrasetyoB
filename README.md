@@ -2,6 +2,7 @@
 
 ## Deployment
 ### Back End
+- https://week-15-rprasetyob-production.up.railway.app/
 ### Front End
 - Client X allowed to GET and POST: &emsp; https://week15-rpb-x.netlify.app/
 - Client Y all methods allowed: &emsp; https://week15-rpb-y.netlify.app/
