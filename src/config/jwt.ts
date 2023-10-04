@@ -1,1 +1,0 @@
-export const JWT_Sign = process.env.SECRET_KEY as string
