@@ -92,8 +92,8 @@ const updateTask = async (req: Request, res: Response) => {
 const deleteTask = async (req: Request, res: Response) => {
     try {
         const { id } = req.params;
-
-        const deletedTask = await taskModel.findByIdAndUpdate(id,{ $set: { isDeleted: true }}, { new: true });
+        // const deletedTask = await taskModel.findByIdAndUpdate(id,{ $set: { isDeleted: true }}, { new: true });
+        const deletedTask = await taskModel.findByIdAndDelete(id);
 
         if (deletedTask) {
             return res.status(200).json({
