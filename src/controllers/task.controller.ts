@@ -32,7 +32,7 @@ const getOneTask = async (req: Request, res: Response) => {
       return res.status(200).json({
         success: true,
         message: "success get task",
-        user: task,
+        data: task,
       });
     } catch (error) {
       console.log(error);
