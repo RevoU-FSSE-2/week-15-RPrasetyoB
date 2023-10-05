@@ -9,6 +9,9 @@ const taskSchema = new mongoose.Schema({
         type: String,
         default: "Not started",
         enum: ['Not started', 'In progress', 'In review', 'Done / Approved', 'Need revision/ Rejected']
+    },
+    isDeleted: {
+        type: Boolean
     }
 },{
     timestamps: {
