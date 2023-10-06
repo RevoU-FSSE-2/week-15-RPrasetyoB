@@ -17,7 +17,7 @@ https://clickjacker.io/test?url=https://week-15-rprasetyob-production.up.railway
 
 
 ## API Logger
-![Screenshot_13](https://github.com/RevoU-FSSE-2/week-15-RPrasetyoB/assets/129088807/1244653b-0cdc-484d-a82e-8eb3463a9bb3)
+![Screenshot_13](https://github.com/RevoU-FSSE-2/week-15-RPrasetyoB/assets/129088807/b691b4a3-5462-4e69-a0b3-da444a621828)
 
 
 ## Deployment
