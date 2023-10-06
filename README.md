@@ -10,7 +10,7 @@ The CORS HTTP Headers Project provides a set of HTTP headers that allow you to c
 
 ## Scenarios
 ### Allow All methods
-In this scenario, you allow any origin to access your resources. This configuration is the least restrictive but should be used cautiously for security reasons.
+In this scenario, you allow specific Client / Domain to access your resources. This configuration is the least restrictive but should be used cautiously for security reasons.
 
 ### Specific Origins
 You can specify a list of allowed origins to restrict access to only trusted domains. This is a more secure configuration for most applications.
