@@ -64,6 +64,7 @@ const updateTask = async (req, res) => {
     try {
         const { id } = req.params;
         const { status } = req.body;
+        console.log(req.body);
         const updatedStatus = await schema_1.taskModel.updateOne({ _id: id }, { status: status });
         if (updatedStatus.modifiedCount > 0) {
             return res.status(200).json({

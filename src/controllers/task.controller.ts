@@ -1,4 +1,4 @@
-import { Request, Response, json } from 'express';
+import { Request, Response } from 'express';
 import { taskModel } from '../config/schema';
 
 const getAllTask = async (req: Request, res: Response) => {
@@ -63,7 +63,8 @@ const updateTask = async (req: Request, res: Response) => {
     try {
       const { id } = req.params;
       const { status } = req.body;
-      
+      console.log(req.body)
+
         const updatedStatus = await taskModel.updateOne({ _id: id }, { status: status });
   
         if (updatedStatus.modifiedCount > 0) {
