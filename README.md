@@ -11,6 +11,11 @@ You can specify a list of allowed origins to restrict access to only trusted dom
 ## BE ClickJacking Test:
 https://clickjacker.io/test?url=https://week-15-rprasetyob-production.up.railway.app/
 
+## XSS test
+- script entered as string :
+![Screenshot_14](https://github.com/RevoU-FSSE-2/week-15-RPrasetyoB/assets/129088807/0fd20951-a762-4dd9-a33e-62caf5431131)
+
+
 ## API Logger
 ![Screenshot_13](https://github.com/RevoU-FSSE-2/week-15-RPrasetyoB/assets/129088807/1244653b-0cdc-484d-a82e-8eb3463a9bb3)
 
