@@ -4,6 +4,7 @@ import clientAccess from '../middlewares/cors'
 import { getAllTask, getOneTask, createTask, updateTask, deleteTask } from '../controllers/task.controller'
 
 const taskRoutes = express.Router()
+taskRoutes.options('/v1/tasks/', cors(clientAccess.limitedClient))
 taskRoutes.get('/v1/tasks',cors(clientAccess.limitedClient), getAllTask)
 taskRoutes.get('/v1/tasks/:id',cors(clientAccess.limitedClient), getOneTask)
 taskRoutes.post('/v1/tasks', cors(clientAccess.limitedClient), createTask)
