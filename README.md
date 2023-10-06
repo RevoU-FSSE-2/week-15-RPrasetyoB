@@ -12,7 +12,7 @@ You can specify a list of allowed origins to restrict access to only trusted dom
 https://clickjacker.io/test?url=https://week-15-rprasetyob-production.up.railway.app/
 
 ## XSS test
-- script entered as string :
+- Script will read as string : <br>
 ![Screenshot_14](https://github.com/RevoU-FSSE-2/week-15-RPrasetyoB/assets/129088807/0fd20951-a762-4dd9-a33e-62caf5431131)
 
 
