@@ -1,6 +1,13 @@
 # CORS Header
 The CORS HTTP Headers Project provides a set of HTTP headers that allow you to control Cross-Origin Resource Sharing (CORS) policies for your web applications. CORS is a security feature implemented by web browsers to prevent unauthorized access to resources hosted on different domains. This project helps you manage and configure CORS policies to secure your web application while allowing safe cross-origin requests.
 
+## Ingredients 
+- Node Typescript
+- Helmet
+- Morgan
+- Cors
+- Express
+
 ## Scenarios
 ### Allow All methods
 In this scenario, you allow any origin to access your resources. This configuration is the least restrictive but should be used cautiously for security reasons.
